@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="../fontawesome/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styleProduk.css" />
+
+    <title>TOKO KU!</title>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../img/img0.png" alt="" width="50" height="50" class="me-2 rounded-circle" />
+          TOKO <strong>KU!</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex ms-auto my-4 my-lg-0">
+            <input class="form-control me-2" type="search" placeholder="Cari Barang Anda" aria-label="Search" />
+            <button class="btn btn-outline-success btn-light" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../Keranjang.html">Keranjang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../register.html">Daftar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Login.html">Masuk</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- breadcrumb -->
+
+    <div class="container">
+      <nav aria-label="breadcrumb" style="background-color: #fff" class="mt-3">
+        <ol class="breadcrumb p-3">
+          <li class="breadcrumb-item"><a href="../index.html" class="text-decoration-none">Home</a></li>
+          <li class="breadcrumb-item"><a href="../Kategori/Celana.html" class="text-decoration-none">Kategori</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Produk</li>
+        </ol>
+      </nav>
+    </div>
+
+    <!-- single product -->
+
+    <div class="container">
+      <div class="row row-produk">
+        <div class="col-lg-5">
+          <figure class="figure">
+            <img src="../img/produk/produk8.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 450px" />
+            <figcaption class="figure-caption d-flex justify-content-evenly">
+              <a href="#">
+                <img src="../img/produk/produk8.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px" />
+              </a>
+              <a href="#">
+                <img src="../img/produk/produk8.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px" />
+              </a>
+              <a href="#">
+                <img src="../img/produk/produk8.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px" />
+              </a>
+              <a href="#">
+                <img src="../img/produk/produk8.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px" />
+              </a>
+              <a href="#">
+                <img src="../img/produk/produk8.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px" />
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-lg-7">
+          <h4>Celana Panjang Pria</h4>
+          <div class="garis-nama"></div>
+          <h3 class="text-muted mb-3">RP. 168.900</h3>
+
+          <button type="button" class="btn btn-dark btn-sm"><i class="fas fa-minus"></i></button>
+          <span class="mx-2">2</span>
+          <button type="button" class="btn btn-warning btn-sm"><i class="fas fa-plus text-white"></i></button>
+          <span class="mx-2">Tersisa 30 pcs</span>
+
+          <div class="btn-produk mt-5">
+            <a href="../Keranjang.html" class="btn btn-dark text-white btn-lg me-2 btn-custom"><i class="fas fa-shopping-cart fs-6 me-2"></i> Masukkan Keranjang</a>
+            <a href="#" class="btn btn-warning text-white btn-lg btn-custom">Beli</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- description/review product -->
+
+      <div class="cont">
+        <div class="row row-produk pt-5">
+          <div class="col-12">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="deskripsi-tab" data-bs-toggle="tab" data-bs-target="#deskripsi" type="button" role="tab" aria-controls="deskripsi" aria-selected="true">Deskripsi Produk</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="false">Review Produk</button>
+              </li>
+            </ul>
+            <div class="tab-content p-3" id="myTabContent">
+              <div class="tab-pane fade show active deskripsi" id="deskripsi" role="tabpanel" aria-labelledby="deskripsi-tab">
+                <p> Detail Produk :
+                </br>
+                    Bahan = Katun Stretch Super </br>
+                    Zipper = YKK / Ideal Outo Lock Zipper / Anti Macet, Anti Turun, Anti Dol </br>
+                    Bahan Saku = Katun Full </br>
+                    2 Saku Samping Kiri dan Kanan </br>
+                    2 Saku bobok di belakang </br>
+                    Warna = Hijau Army </br>
+                    Ukuran 29 - 38 </br>
+                </br>
+                    Detail Ukuran </br>
+                </br>
+                    => Ukuran 29 : </br>
+                    Lingkar Pinggang 78cm , Lingkar Kaki 32cm, Lingkar Paha 57cm, Pasak Depan 24cm, Psak Belakang 36cm </br>
+                </br>
+                    => Ukuran 30 </br>
+                    Lingkar Pinggang 80cm, Lingkar Kaki 32cm, Lingkar Paha 58cm, Pasak Depan 25cm, Psak Belakang 36cm </br>
+                </br>
+                    => Ukuran 31 : </br>
+                    Lingkar Pinggang 82cm, Lingkar Kaki 34cm, Lingkar Paha 59cm, Pasak Depan 25cm, Pasak Belakang 36cm </br>
+                </br>
+                    => Ukuran 32 : </br>
+                    Lingkar Pinggang 84cm, Lingkar Kaki 34cm, Lingkar Paha 60cm, Pasak Depan 25cm, Pasak Belakang 36cm </br>
+                </br>
+                    => Ukuran 33 : </br>
+                    Lingkar Pinggang 86cm, Lingkar Kaki 36cm, Lingkar Paha 62cm, Pasak Depan 26cm, Pasak Belakang 36cm  </br>
+                </br>
+                    => Ukuran 34 : </br>
+                    Lingkar Pinggang 88cm, Lingkar Kaki 36cm, Lingkar Paha 62cm, Pasak Depan 26cm, Pasak Belakang 37cm  </br>
+                </br>
+                    => Ukuran 35 : </br>
+                    Lingkar Pinggang 90cm , Lingkar Kaki 38cm, Lingkar Paha 63cm, Pasak Depan 26cm, Pasak Belakang 37cm  </br>
+                </br>
+                    => Ukuran 36 : </br>
+                    Lingkar Pinggang 92cm, Lingkar Kaki 38cm, Lingkar Paha 64cm, Pasak Depan 27cm, Pasak Belakang 37cm  </br>
+                </br>
+                    => Ukuran 37 : </br>
+                    Lingkar Pinggang 94cm, Lingkar Kaki 40cm, Lingkar Paha 67cm, Pasak Depan 27cm, Pasak Belakang 37cm  </br>
+                </br>
+                    => Ukuran 38 : </br>
+                    Lingkar Pinggang 96cm, Lingkar Kaki 40cm, Lingkar Paha 68cm, Pasak Depan 27cm, Pasak Belakang 37cm  </br>
+                </br>
+            </br>
+                </br>
+                    Ukuran 40 = 102cm Lingkar Pinggang  </br>
+                    Ukuran 41 = 104cm Lingkar Pinggang  </br>
+                </br>
+                    Ukuran 40 dan 41 Khusus saat ini hanya ada warna Hitam, Tulis keterangan pembelian " Minta warna Hitam ukuran 40 atau 41 jika anda ingin membeli Ukuran tersebut </p>
+              </div>
+              <div class="tab-pane fade review" id="review" role="tabpanel" aria-labelledby="review-tab">
+                  <div class="row">
+                      <div class="col-2 col-md-1">
+                          <img src="../img/profil/img1.png" class="review-img rounded-circle">
+                      </div>
+                      <div class="col">
+                          <h5 class="review-name">Khairul</h5>
+                          <p class="review-desc">Produk super bagus, packing aman, dan pengiriman cepat</p>
+                      </div>
+                  </div>
+
+                <div class="row">
+                    <div class="col-2 col-md-1">
+                        <img src="../img/profil/img1.png" class="review-img rounded-circle">
+                    </div>
+                    <div class="col">
+                        <h5 class="review-name">Dimas</h5>
+                        <p class="review-desc">Produk bagus, kualitas bahannya bagus banget, penjualnya ramah, pengiriman cepat, dan pengiriman rapih</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2 col-md-1">
+                        <img src="../img/profil/img1.png" class="review-img rounded-circle">
+                    </div>
+                    <div class="col">
+                        <h5 class="review-name">Roy</h5>
+                        <p class="review-desc">Mantep bos barangnya nyaman buat dipakai</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2 col-md-1">
+                        <img src="../img/profil/img1.png" class="review-img rounded-circle">
+                    </div>
+                    <div class="col">
+                        <h5 class="review-name">Yanto</h5>
+                        <p class="review-desc">Produk bagus, enak dipakai, motif warna yang bagus</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2 col-md-1">
+                        <img src="../img/profil/img1.png" class="review-img rounded-circle">
+                    </div>
+                    <div class="col">
+                        <h5 class="review-name">Septian</h5>
+                        <p class="review-desc">Produk bagus, celananya keren,packingnya rapih, dan pengiriman cepat</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="bg-light p-5 mt-5 text-center">
+      <p>
+        Copyright &copy; 2021 | Create with <i class="fas fa-heart text-danger"></i> by
+        <a href="https://www.instagram.com/invites/contact/?i=ayc5hb6mcwm1&utm_content=27bhzx4" class="text-decoration-none text-dark fw-bold">Kelompok 4</a>
+        <a href="https://www.instagram.com/invites/contact/?i=ok5lawy8aynz&utm_content=mp9px5e" class="text-decoration-none">
+          <img src="../img/sosialMedia/instagram.png" style="width: 30px" />
+        </a>
+      </p>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
